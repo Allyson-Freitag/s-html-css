@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Criação de variaveis */
+:root {
+    --corPrincipal: #6990FA;
+    --corCompEscura: #1746AD;
+    --corCompClara: #8FB2FF;
+    --corOposta: #FACC6B;
+    --corOpEscura: #AD8326;
+}
+
+/* Configuração global de todas as partes! */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--corCompEscura);
+    height: 100px;
+    width: auto;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+h1 {
+    font-family: 'Tinos', serif;
+}
+
+body {
+    background-color: var(--corCompClara);
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: var(--corOpEscura);
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: white;
+    padding: 10px 20px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+}
+
+footer {
+    background-color: var(--corOpEscura);
+}
